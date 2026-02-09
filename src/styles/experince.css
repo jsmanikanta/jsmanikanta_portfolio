@@ -1,0 +1,283 @@
+/* ===== Experience / Skills (clean & responsive) ===== */
+
+.section3 {
+  max-width: 80vw;
+  margin: auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* Remove the "*" background forcing - keep only text color */
+.skills,
+.exp {
+  color: var(--muted2);
+}
+
+/* SKILLS GRID */
+.skills {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 18px;
+  justify-content: center;
+  align-items: start;
+}
+
+/* Skill card */
+.myskills {
+  padding: 18px 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.03);
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.myskills:hover {
+  transform: translateY(-4px);
+  border-color: rgba(185, 38, 180, 0.55);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.skillset h2 {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.92);
+  margin-bottom: 14px;
+}
+
+/* Skill list with icons */
+.skillList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.skillList li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 10px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.skillList li:hover {
+  border-color: rgba(83, 112, 254, 0.45);
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.skillList h4 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.98rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.skillList h6 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.82rem;
+  margin: 2px 0 0;
+  font-weight: 600;
+}
+
+/* ICONS */
+.skillIcon {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  display: grid;
+  place-items: center;
+  font-size: 28px;
+}
+
+/* Icon colors */
+.skillIcon.html { color: #e34c26; }
+.skillIcon.css { color: #264de4; }
+.skillIcon.js { color: #f0db4f; }
+.skillIcon.react { color: #61dafb; }
+.skillIcon.node { color: #3c873a; }
+.skillIcon.mongo { color: #4db33d; }
+.skillIcon.express { color: #cccccc; }
+.skillIcon.java { color: #f89820; }
+
+/* C fallback */
+.skillIcon.c {
+  font-weight: 900;
+  font-size: 22px;
+  color: #5c6bc0;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* EXPERIENCE CARD */
+.exp {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.myexp {
+  width: min(900px, 100%);
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 16px;
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.03);
+  align-items: start;
+}
+
+.myexp hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  margin: 10px 0;
+}
+
+.myexp h1 {
+  font-size: 52px;
+  color: rgba(255, 255, 255, 0.25);
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+.time {
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.myexp h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 650;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ===== Responsive ===== */
+
+/* Tablets */
+@media (max-width: 1000px) {
+  .section3 { max-width: 92vw; }
+  .skills {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 650px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
+
+  .myexp {
+    grid-template-columns: 1fr;
+  }
+
+  .myexp h1 {
+    font-size: 40px;
+  }
+
+  .skillIcon {
+    width: 30px;
+    height: 30px;
+    flex: 0 0 30px;
+    font-size: 24px;
+  }
+}
+
+/* EXPERIENCE BLOCK */
+.exp {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.myexp {
+  width: min(900px, 100%);
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 18px;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.03);
+  align-items: start;
+}
+
+/* Left column */
+.expYear {
+  text-align: center;
+}
+
+.expYear h1 {
+  font-size: 52px;
+  color: rgba(255, 255, 255, 0.25);
+  margin: 0;
+  line-height: 1;
+}
+
+.time {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Right column */
+.expDetails h3 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.expDetails p {
+  margin: 0;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Hover effect */
+.myexp:hover {
+  border-color: rgba(185, 38, 180, 0.55);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ===== Responsive ===== */
+
+/* Tablet */
+@media (max-width: 900px) {
+  .myexp {
+    grid-template-columns: 110px 1fr;
+  }
+
+  .expYear h1 {
+    font-size: 44px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 650px) {
+  .myexp {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .expYear {
+    margin-bottom: 6px;
+  }
+
+  .expYear h1 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,71 @@
+/* Based on your original styles.css (same colors + layout) */
+:root{
+  --bg: rgb(0, 0, 33);
+  --navbg: rgb(18,18,62);
+  --link: rgb(83, 112, 254);
+  --hover: rgb(185, 38, 180);
+  --purple: rgb(137, 83, 187);
+  --title: rgb(215, 18, 219);
+  --muted: rgb(198, 191, 191);
+  --muted2: rgb(141, 139, 139);
+  --hr: rgb(89, 86, 86);
+  --navH: 56px;
+
+  --maxW: 1100px;
+  --pad: 18px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{ width: 100%; height: 100%; }
+body{
+  background-color: var(--bg); /* like your original body bg */ /* :contentReference[oaicite:0]{index=0} */
+  color: whitesmoke;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+a{ text-decoration: none; } /* :contentReference[oaicite:1]{index=1} */
+
+.container{
+  width: min(var(--maxW), calc(100% - (var(--pad) * 2)));
+  margin: 0 auto;
+}
+
+.pageOffset{
+  padding-top: var(--navH);
+}
+
+.purple{ color: var(--purple); } /* :contentReference[oaicite:2]{index=2} */
+.animate{ font-family: monospace; } /* :contentReference[oaicite:3]{index=3} */
+
+.section2, .section3, .section4, .section5{
+  width: 100%;
+  padding: 48px 0;
+}
+
+.section2 h1, .section3 h1, .section4 h1, .section5 h1{
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--title); /* :contentReference[oaicite:4]{index=4} */
+  text-align: center;
+}
+
+hr{
+  border: none;
+  border-top: 1px solid var(--hr); /* :contentReference[oaicite:5]{index=5} */
+}
+
+@media (max-width: 900px){
+  :root{ --pad: 14px; --navH: 60px; }
+  .section2, .section3, .section4, .section5{ padding: 36px 0; }
+}
+
+@media (max-width: 600px){
+  :root{ --pad: 12px; }
+  .section2 h1, .section3 h1, .section4 h1, .section5 h1{ font-size: 1.6rem; }
+}

@@ -1,0 +1,56 @@
+/* Education section based on .section2 .study .course */
+.section2{
+  max-width: 80vw;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+} /* :contentReference[oaicite:18]{index=18} */
+
+.edu{
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.study{
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* :contentReference[oaicite:19]{index=19} */
+  padding: 18px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.10);
+}
+
+.year h3{
+  color: rgb(110, 104, 104); /* :contentReference[oaicite:20]{index=20} */
+  font-size: 2.2rem;
+}
+
+.course{
+  width: 25%;
+  text-align: left; /* :contentReference[oaicite:21]{index=21} */
+}
+
+.course *{
+  color: var(--muted); /* :contentReference[oaicite:22]{index=22} */
+}
+
+.course p{ line-height: 1.6; }
+
+/* Responsive */
+@media (max-width: 900px){
+  .section2{ max-width: 92vw; }
+  .course{ width: 60%; }
+}
+
+@media (max-width: 700px){
+  .study{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .course{ width: 100%; }
+  .year h3{ font-size: 1.8rem; }
+}

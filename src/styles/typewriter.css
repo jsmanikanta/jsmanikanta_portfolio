@@ -1,0 +1,5 @@
+/* Just keeps your original typing look */
+.animate{
+  font-family: monospace;
+  color: var(--purple);
+}

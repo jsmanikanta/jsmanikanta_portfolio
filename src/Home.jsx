@@ -20,6 +20,7 @@ export default function Home() {
 
         <div className="rightsection">
           <img src="/main.jpg" alt="Manikanta" />
+          <p>Est. 2006</p>
           <br />
           <p>
             <a className="resumeBtn" href="/resume.pdf" download>

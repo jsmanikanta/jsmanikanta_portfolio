@@ -8,7 +8,9 @@ export default function Navbar() {
   return (
     <header>
       <nav>
-        <div className="left">J S Manikanta&apos;s Portfolio</div>
+        <NavLink to="/" className="left" onClick={() => setOpen(false)} >
+          J S Manikanta&apos;s Portfolio
+        </NavLink>
 
         <div className="right">
           {/* Desktop links */}

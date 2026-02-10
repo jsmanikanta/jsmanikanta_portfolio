@@ -15,6 +15,8 @@ nav .left{
   font-size: 1.5rem;
   font-weight: 700;
   white-space: nowrap;
+  cursor: pointer;
+  color: whitesmoke;
 }
 
 nav .right ul{
@@ -31,7 +33,7 @@ nav .right ul li{
 } /* :contentReference[oaicite:9]{index=9} */
 
 nav .right ul li a{
-  color: var(--link); /* :contentReference[oaicite:10]{index=10} */
+  color: whitesmoke; 
   font-weight: 600;
   padding: 8px 10px;
   border-radius: 10px;
@@ -79,6 +81,7 @@ nav .right ul li a.active{
   padding: 10px 12px;
   border-radius: 12px;
   background: rgba(255,255,255,0.05);
+  color: whitesmoke;
 }
 
 @media (max-width: 900px){

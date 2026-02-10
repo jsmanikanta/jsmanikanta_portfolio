@@ -91,3 +91,9 @@ nav .right ul li a.active{
 @media (max-width: 520px){
   nav .left{ font-size: 1.1rem; }
 }
+
+@media (max-width: 900px){
+  nav{ justify-content: space-between; padding: 0 var(--pad); }
+  nav .right ul{ display: none; }
+  .menuBtn{ display: inline-flex; }
+}

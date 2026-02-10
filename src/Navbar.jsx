@@ -9,7 +9,7 @@ export default function Navbar() {
     <header>
       <nav>
         <NavLink to="/" className="left" onClick={() => setOpen(false)} >
-          J S Manikanta&apos;s Portfolio
+          J S Manikanta 
         </NavLink>
 
         <div className="right">

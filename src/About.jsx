@@ -14,10 +14,10 @@ export default function About() {
             <hr />
             <div className="course">
               <h2><b>B.Tech</b></h2>
-              <h5>ANITS,Vizag</h5>
+              <h5>ANITS,Visakhapatnam</h5>
               <p>
                 Currently Pursuing my B.Tech in Electrical and Electronics Engineering
-                at ANITS,Vizag
+                at ANITS,Visakhapatnam
               </p>
             </div>
           </div>

@@ -11,7 +11,7 @@ const projects = [
       "Allows users to select print options such as color mode and page sides",
       "Supports classroom and home delivery with custom order assistance",
     ],
-    github: "https://printkart.onrender.com/",
+    github: "https://printkart.mybookhub.store/",
   },
   {
     img: "/mbh.png",
@@ -22,7 +22,7 @@ const projects = [
       "Provides category-based navigation and search for easy book discovery",
       "Integrated printout ordering service for notes and study materials",
     ],
-    github: "https://printkart.onrender.com/",
+    github: "https://mybookhub.store/",
   },
   {
     img: "/recipeapp.png",

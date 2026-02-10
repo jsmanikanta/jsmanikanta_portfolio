@@ -4,19 +4,19 @@
   margin: auto;
   text-align: center;
   justify-content: center;
-} /* :contentReference[oaicite:18]{index=18} */
+} 
 
 .edu{
-  margin-top: 22px;
+  margin-top: 2px;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 19px;
 }
 
 .study{
   display: flex;
   justify-content: center;
-  gap: 40px; /* :contentReference[oaicite:19]{index=19} */
+  gap: 40px; 
   padding: 18px;
   border-radius: 14px;
   background: rgba(255,255,255,0.03);
@@ -53,4 +53,28 @@
   }
   .course{ width: 100%; }
   .year h3{ font-size: 1.8rem; }
+}
+
+.aboutPage {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: calc(var(--navH) + 80px); 
+  padding-bottom: 80px;
+}
+
+/* About text card */
+.about {
+  max-width: 800px;
+  margin: 0 auto 120px;
+  margin-top: 50px;
+  padding: 28px 32px;
+
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.88);
+
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
 }

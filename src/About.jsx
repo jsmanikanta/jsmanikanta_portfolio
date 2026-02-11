@@ -6,9 +6,9 @@ export default function About() {
     <main>
       <div>
         <p className="about">
-          I’m a passionate full-stack web developer with a strong focus on
+          A pre-final year Electrical Graduate student and a passionate full-stack web developer with a strong focus on
           building clean, interactive, and user-friendly web applications. I
-          enjoy working with **JavaScript, React, Node.js, and MongoDB**, and I
+          enjoy working with JavaScript, React, Node.js, and MongoDB, and I
           like turning ideas into functional, real-world products. I have
           hands-on experience developing projects that combine thoughtful UI
           design with solid backend logic. I’m continuously learning and

@@ -20,7 +20,6 @@ export default function About() {
       <section className="section2" id="about">
         <h1>EDUCATION</h1>
         <br />
-
         <div className="edu">
           <div className="study">
             <div className="year">

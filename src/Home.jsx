@@ -35,7 +35,7 @@ export default function Home() {
         <div className="contactme">
           <div className="contactItem">
             <FaEnvelope className="contactIcon mail" />
-            <a href="mailto:mail@jsmanikanta.in">mail@jsmanikanta.in</a>
+            <a href="mailto:jsmanikanta13@gmail.com">jsmanikanta13@gmail.com</a>
           </div>
 
           <div className="contactItem">

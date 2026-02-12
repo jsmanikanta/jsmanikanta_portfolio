@@ -14,10 +14,30 @@ import { SiMongodb, SiExpress } from "react-icons/si";
 export default function Experience() {
   return (
     <main>
+      <section className="section3">
+        <h1>EXPERIENCE</h1>
+        <br />
+        <div className="exp">
+          <div className="myexp">
+            <div className="expYear">
+              <h1>2025</h1>
+              <p className="time">September 2025 – Present</p>
+            </div>
+
+            {/* Right column */}
+            <div className="expDetails">
+              <h3>Secratary | National Service Scheme – ANITS</h3>
+              <p>
+                Led and coordinated community service initiatives, managing
+                volunteers and organizing social impact programs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="section3" id="Experience">
         <h1>SKILLS</h1>
         <br />
-
         <div className="skills">
           {/* Frontend */}
           <div className="myskills">
@@ -115,27 +135,6 @@ export default function Experience() {
                   </div>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-
-        <br />
-        <br />
-
-        <h1>EXPERIENCE</h1>
-        <br />
-        <div className="exp">
-          <div className="myexp">
-            <div className="expYear">
-              <h1>2025</h1>
-              <p className="time">September 2025 – Present</p>
-            </div>
-
-            {/* Right column */}
-            <div className="expDetails">
-              <h3>Secratary | National Service Scheme – ANITS</h3>
-              <p>Led and coordinated community service initiatives, managing volunteers and organizing social impact programs.
-              </p>
             </div>
           </div>
         </div>

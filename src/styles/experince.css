@@ -104,6 +104,7 @@
 .skillIcon.mongo { color: #4db33d; }
 .skillIcon.express { color: #cccccc; }
 .skillIcon.java { color: #f89820; }
+.skillIcon.python {color: #268fe4;}
 
 /* C fallback */
 .skillIcon.c {
@@ -121,6 +122,8 @@
   margin-top: 24px;
   display: flex;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .myexp {

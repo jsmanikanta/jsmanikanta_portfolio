@@ -8,6 +8,8 @@ import {
   FaReact,
   FaNodeJs,
   FaJava,
+  FaDatabase,
+  FaPython,
 } from "react-icons/fa";
 import { SiMongodb, SiExpress } from "react-icons/si";
 
@@ -21,15 +23,26 @@ export default function Experience() {
           <div className="myexp">
             <div className="expYear">
               <h1>2025</h1>
-              <p className="time">September 2025 – Present</p>
+              <p className="time">September 2025 – <br /> Present</p>
             </div>
-
-            {/* Right column */}
             <div className="expDetails">
               <h3>Secratary | National Service Scheme – ANITS</h3>
               <p>
                 Led and coordinated community service initiatives, managing
                 volunteers and organizing social impact programs.
+              </p>
+            </div>
+          </div> 
+          <br />
+          <div className="myexp">
+            <div className="expYear">
+              <h1>2025</h1>
+              <p className="time">June 2025 – <br /> July 2025</p>
+            </div>
+            <div className="expDetails">
+              <h3>Intern |TEKNOV8R Startup Solutions (OPC) Private Limited</h3>
+              <p>
+                Contributed to the development of a social-impact mobile application, primarily focusing on UI design using AI-assisted tools. Worked on creating intuitive, user-friendly interfaces and improving user experience across modules such as pregnancy tracking, health tips, and chatbot integration. Collaborated with the team to design and refine the MVP.
               </p>
             </div>
           </div>
@@ -109,6 +122,13 @@ export default function Experience() {
                     <h6>Intermediate</h6>
                   </div>
                 </li>
+                <li>
+                  <FaDatabase className="skillIcon node" />
+                  <div>
+                    <h4>SQL</h4>
+                    <h6>Intermediate</h6>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -124,6 +144,14 @@ export default function Experience() {
                   <div>
                     <h4>Java</h4>
                     <h6>Advanced</h6>
+                  </div>
+                </li>
+
+                <li>
+                  <FaPython className="skillIcon python" />
+                  <div>
+                    <h4>Python</h4>
+                    <h6>Intermediate</h6>
                   </div>
                 </li>
 

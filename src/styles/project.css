@@ -1,7 +1,8 @@
 /* Projects based on your .section4 .imgcontainer hover overlay */
 .section4{
   text-align: center;
-  justify-content: center; /* :contentReference[oaicite:31]{index=31} */
+  justify-content: center;
+   /* :contentReference[oaicite:31]{index=31} */
 }
 
 .imgcontainer{
@@ -10,6 +11,7 @@
   width: min(900px, 95vw);
   border-radius: 12px;
   overflow: hidden;
+  width: fit-content;
 }
 
 .imgcontainer img{

@@ -3,6 +3,19 @@ import "./styles/project.css";
 
 const projects = [
   {
+    img: "/driving.png",
+    title: "Printkart",
+    tech: "Full stack",
+    points: [
+      "Developed a responsive website for a driving school with services like training, car rentals, and car sales",
+      "Implemented user-friendly forms for course enrollment, contact, and vehicle listing submissions",
+      "Built backend APIs for handling car listings, admin approvals, and data management",
+      "Integrated features like WhatsApp contact, call actions, and real-time service inquiries",
+      "Designed a clean and modern UI for better user experience across all devices",
+    ],
+    github: "https://saidrivingschoolandtravels.in/",
+  },
+  {
     img: "/pk.png",
     title: "Printkart",
     tech: "MERN stack",

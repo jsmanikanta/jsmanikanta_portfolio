@@ -48,39 +48,6 @@ const projects = [
     ],
     github: "https://github.com/jsmanikanta/Amazon_clone",
   },
-  {
-    img: "/rockpaperscissors.png",
-    title: "Rock paper Scissors Game",
-    tech: "HTML,CSS,JS",
-    points: [
-      "Created Rock paper Scissors Using HTML,CSS,JS",
-      "Used some basic CSS properties",
-      "Used JavaScript for generating random choice by computer",
-    ],
-    github: "https://github.com/jsmanikanta/Amazon_clone",
-  },
-  {
-    img: "/savings.png",
-    title: "Savings Calculator",
-    tech: "HTML,CSS,JS",
-    points: [
-      "Created Savings Using HTML,CSS,JS",
-      "This helps me to gain more knowledge on apis",
-      "Used JavaScript for generating random quotes from the api",
-    ],
-    github: "https://github.com/jsmanikanta/Amazon_clone",
-  },
-  {
-    img: "/amazon.png",
-    title: "Amazon Clone",
-    tech: "HTML,CSS",
-    points: [
-      "Created a Amazon Clone website using HTML,CSS",
-      "Navigation bar consists of search,cart icons",
-      "Also used some basic CSS properties",
-    ],
-    github: "https://github.com/jsmanikanta/Amazon_clone",
-  },
 ];
 
 export default function Projects() {

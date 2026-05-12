@@ -23,7 +23,7 @@ export default function Home() {
           <p>Est. 2006</p>
           <br />
           <p>
-            <a className="resumeBtn" href="/resume.pdf" download>
+            <a className="resumeBtn" href="resume.pdf" download>
               Download Resume
             </a>
           </p>

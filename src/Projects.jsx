@@ -48,17 +48,6 @@ const projects = [
     ],
     github: "https://github.com/jsmanikanta/Amazon_clone",
   },
-  {
-    img: "/rockpaperscissors.png",
-    title: "Rock paper Scissors Game",
-    tech: "HTML,CSS,JS",
-    points: [
-      "Created Rock paper Scissors Using HTML,CSS,JS",
-      "Used some basic CSS properties",
-      "Used JavaScript for generating random choice by computer",
-    ],
-    github: "https://github.com/jsmanikanta/Amazon_clone",
-  },
 ];
 
 export default function Projects() {

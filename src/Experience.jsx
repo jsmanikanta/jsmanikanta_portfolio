@@ -23,7 +23,9 @@ export default function Experience() {
           <div className="myexp">
             <div className="expYear">
               <h1>2025</h1>
-              <p className="time">September 2025 – <br /> Present</p>
+              <p className="time">
+                September 2025 – <br /> Present
+              </p>
             </div>
             <div className="expDetails">
               <h3>Secratary | National Service Scheme – ANITS</h3>
@@ -32,17 +34,24 @@ export default function Experience() {
                 volunteers and organizing social impact programs.
               </p>
             </div>
-          </div> 
+          </div>
           <br />
           <div className="myexp">
             <div className="expYear">
               <h1>2025</h1>
-              <p className="time">June 2025 – <br /> July 2025</p>
+              <p className="time">
+                June 2025 – <br /> July 2025
+              </p>
             </div>
             <div className="expDetails">
               <h3>Intern |TEKNOV8R Startup Solutions (OPC) Private Limited</h3>
               <p>
-                Contributed to the development of a social-impact mobile application, primarily focusing on UI design using AI-assisted tools. Worked on creating intuitive, user-friendly interfaces and improving user experience across modules such as pregnancy tracking, health tips, and chatbot integration. Collaborated with the team to design and refine the MVP.
+                Contributed to the development of a social-impact mobile
+                application, primarily focusing on UI design using AI-assisted
+                tools. Worked on creating intuitive, user-friendly interfaces
+                and improving user experience across modules such as pregnancy
+                tracking, health tips, and chatbot integration. Collaborated
+                with the team to design and refine the MVP.
               </p>
             </div>
           </div>
@@ -58,6 +67,13 @@ export default function Experience() {
               <h2>Frontend Technologies</h2>
               <br />
               <ul className="skillList">
+                <li>
+                  <FaReact className="skillIcon react" />
+                  <div>
+                    <h4>React.js</h4>
+                    <h6>Intermediate</h6>
+                  </div>
+                </li>
                 <li>
                   <FaHtml5 className="skillIcon html" />
                   <div>
@@ -79,14 +95,6 @@ export default function Experience() {
                   <div>
                     <h4>JavaScript</h4>
                     <h6>Basic</h6>
-                  </div>
-                </li>
-
-                <li>
-                  <FaReact className="skillIcon react" />
-                  <div>
-                    <h4>React.js</h4>
-                    <h6>Intermediate</h6>
                   </div>
                 </li>
               </ul>

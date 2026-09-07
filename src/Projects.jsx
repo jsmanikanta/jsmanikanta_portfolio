@@ -3,8 +3,36 @@ import "./styles/project.css";
 
 const projects = [
   {
+    img: "/codesync.png",
+    title: "Code Sync",
+    tech: "n8n",
+    points: [
+      "Built a real-time collaborative code editor that allows multiple users to write and edit code simultaneously",
+      "Implemented Socket.IO for instant code synchronization and real-time communication between connected users",
+      "Developed collaborative features such as live code updates, room-based sessions, and multi-user connectivity",
+      "Designed a responsive and user-friendly interface for seamless collaborative coding",
+      "Integrated frontend and backend services to manage real-time connections and code synchronization",
+      "Reduced collaboration delays by enabling users to instantly share and edit code within the same session",
+    ],
+    github: "https://codesync-nu-sepia.vercel.app/",
+  },
+  {
+    img: "/n8n.jpg",
+    title: "Instagram Chatbot",
+    tech: "n8n",
+    points: [
+      "Built an automated Instagram chatbot using n8n to handle customer messages and common inquiries",
+      "Designed n8n workflows to process incoming messages and generate automated, context-aware responses",
+      "Integrated AI-powered responses to provide natural and interactive conversations with users",
+      "Automated lead collection and customer information handling through Instagram conversations",
+      "Connected external APIs and services with n8n to create an end-to-end chatbot workflow",
+      "Reduced manual effort by automating repetitive customer interactions and responses",
+    ],
+    // github: "",
+  },
+  {
     img: "/driving.png",
-    title: "Printkart",
+    title: "Driving School & Travels ",
     tech: "Full stack",
     points: [
       "Developed a responsive website for a driving school with services like training, car rentals, and car sales",

@@ -6,15 +6,15 @@ export default function About() {
     <main>
       <div>
         <p className="about">
-          A pre-final year Electrical Graduate student and a passionate full-stack web developer with a strong focus on
-          building clean, interactive, and user-friendly web applications. I
-          enjoy working with JavaScript, React, Node.js, and MongoDB, and I
-          like turning ideas into functional, real-world products. I have
-          hands-on experience developing projects that combine thoughtful UI
-          design with solid backend logic. I’m continuously learning and
-          experimenting with modern web technologies to improve performance and
-          user experience. I’m motivated, detail-oriented, and excited to grow
-          as a developer by solving meaningful problems.
+          I’m a final-year Electrical Engineering student and full-stack
+          developer who enjoys building practical web applications that solve
+          real problems. I work mainly with JavaScript, React, Node.js, and
+          MongoDB, and I enjoy taking an idea from concept to a working product.
+          Through my projects, I’ve gained hands-on experience in both frontend
+          development and backend logic, with a focus on creating simple,
+          reliable, and user-friendly experiences. I’m always curious to learn
+          new technologies, improve my problem-solving skills, and build
+          products that are genuinely useful to people.
         </p>
       </div>
       <section className="section2" id="about">

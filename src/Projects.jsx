@@ -14,7 +14,7 @@ const projects = [
       "Integrated frontend and backend services to manage real-time connections and code synchronization",
       "Reduced collaboration delays by enabling users to instantly share and edit code within the same session",
     ],
-    github: "https://codesync-nu-sepia.vercel.app/",
+    github: "https://codesync-qs20.onrender.com/",
   },
   {
     img: "/n8n.jpg",
